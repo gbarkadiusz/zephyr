@@ -1,6 +1,9 @@
 name: Code Coverage with codecov
 
 on:
+  push:
+    branches:
+      - gbarkadiusz-coverage
   workflow_dispatch:
 
 concurrency:
