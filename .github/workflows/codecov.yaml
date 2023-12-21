@@ -10,7 +10,6 @@ on:
 
 jobs:
   codecov:
-    if: github.repository == 'zephyrproject-rtos/zephyr'
     runs-on: self-hosted
     container:
       image: ghcr.io/zephyrproject-rtos/ci:v0.26.6
